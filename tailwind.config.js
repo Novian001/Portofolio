@@ -16,7 +16,8 @@ module.exports = {
       screens: {
         "2xl": "1320px",
       },
+      lineClamp: ["hover"],
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/line-clamp"), require("flowbite/plugin")],
 };
